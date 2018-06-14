@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/yavuzovski/yavuzovski.github.io.svg?token=mD9AXNjyYMhbERCwh7kH&branch=master)](https://travis-ci.com/yavuzovski/yavuzovski.github.io)
+
 # jekyll-uno
 
 Jekyll-Uno - a minimal, responsive theme for Jekyll based on the [Uno](https://github.com/daleanthony/Uno) theme for Ghost.
