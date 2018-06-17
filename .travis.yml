@@ -7,10 +7,6 @@ before_script:
 
 script: ./script/cibuild
 
-env:
-  global:
-    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
-
 sudo: false
 
 cache: bundler
@@ -18,3 +14,9 @@ cache: bundler
 notifications:
   email: false
 
+deploy:
+  provider: pages
+  skip-cleanup: true
+  keep-history: true
+  on:
+    branch: master

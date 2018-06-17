@@ -25,7 +25,7 @@ GraphQL'in bunları nasıl çözdüğünü göreceğiz. Kullanacağımız teknol
 REST ve GraphQL arasındaki farkı görmemizi sağlayacak çok basit
 bir veri modeli oluşturdum. Veri modeli, parça ve şarkıcı koleksiyonlarını
 barındırmakta. JSON formatında veri modelimizi temsil edecek olursak:
-```
+``` json
 { 
   "tracks": [
     {
@@ -61,7 +61,8 @@ Oluşturacağımız API'ın şu iki koşulu sağlamasını istiyoruz:
    
 2. İstemci tarafında parça adı, parça türü ve o parçanın şarkıcısının adını tek bir JSON objesinde elde etmek.
 Temsil edecek olursak:
-    ```
+
+    ``` json
     {
       "title": "Aç Kapıyı Gir İçeri",
       "genre": "pop",
@@ -70,6 +71,7 @@ Temsil edecek olursak:
       }
     }
     ```
+    
     **Çözüm:** Bu koşulu yerine getirmek için istemci tarafında seçebileceğimiz bir çözüm, sunucu tarafında
     seçebileceğimiz iki çözüm var. Buraya CRUD kısmını bitirdikten sonra tekrar geleceğiz.
 
@@ -78,7 +80,7 @@ Temsil edecek olursak:
 Şimdi modellerimizi yazılıma dökebiliriz. Öncelikle yeni bir klasör açıp
 yeni bir NodeJS projesi başlatalım.
 
-```
+``` bash
 mkdir rest-example && cd rest-example
 npm init -y
 ```
@@ -87,9 +89,25 @@ npm init -y
 ExpressJS kullanacağız. ExpressJS paketini projemize ekleyelim ve 
 `server.js` adında yeni bir dosya oluşturalım.
 
-```
+``` bash
 npm i --save express
 touch server.js
+```
+
+server.js içerisinde HTTP sunucumuzu oluşturalım.
+``` js
+const express = require('express')
+const app = express()
+
+app.listen(8000, () => {
+  console.log("REST API is listening on port 8000")
+}
+```
+
+Artık endpointlerimizi oluşturabiliriz. Bu aşamada projenin
+dosya yapısını şu şekle sokmak istiyorum:
+```
+
 ```
 
 [CRUD]: https://en.wikipedi0.org/wiki/Create,_read,_update_and_delete
