@@ -16,7 +16,7 @@ I'm a very lazy person for some things. For example, all housework
 is a big problem for me. Sometimes I don't eat food just for
 not having to wash dishes. But don't worry; software is a subject
 that I care about not being lazy at. I think developing 
-software is a very cool thing and I am constantly trying to be
-better to be able to call myself **a good software developer**.
+software is a very cool thing and I am constantly trying to be a
+better developer to be able to call myself **a good software developer**.
 
 [MOOC]: http://mooc.org

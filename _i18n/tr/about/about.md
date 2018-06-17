@@ -17,6 +17,6 @@ benim için çok büyük dertlerdir. Bazen bulaşık çıkmasın diye yemek
 yemeyebiliyorum. Ancak merak etmeyin; yazılım, üşengeçlik yapmamaya
 özen gösterdiğim bir konu. Bence yazılım geliştirmek çok havalı bir
 şey ve kendime **iyi bir yazılım geliştiricisi** diyebilmek için sürekli
-daha iyi olmaya çalışmaktayım.
+daha iyi bir yazılımcı olmaya çalışmaktayım.
 
 [MOOC]: http://mooc.org
