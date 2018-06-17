@@ -9,7 +9,13 @@ layout: default
       &#8226; <span class="post-meta__tags">on {% for tag in page.tags %}<a href="{{ site.baseurl }}/tags/#{{ tag }}">{{ tag }}</a> {% endfor %}</span>
       {% endif %}
     </div>
-    <h1 class="post-title">{% t titles.{{page.title}} %}</h1>
+    <h1 class="post-title">
+      {% if page.notranslate != true %}
+      {% t titles.{{ page.title }} %}
+      {% else %}
+      {{ page.title }}
+      {% endif %}
+    </h1>
   </header>
 
   <section class="post">

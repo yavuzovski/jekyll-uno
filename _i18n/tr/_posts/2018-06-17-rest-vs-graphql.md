@@ -1,5 +1,5 @@
 ---
-title: rest-graphql-1
+title: Rest vs GraphQL
 date: 2018-06-17 15:31:21
 categories: [backend, graphql, rest]
 tags: [backend, graphql, rest, nodejs, exressjs, mongodb]
