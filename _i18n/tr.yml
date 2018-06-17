@@ -3,5 +3,8 @@ langs:
   tr: Türkçe
 titles:
   about: Hakkımda
+  Categories: Kategoriler
+  Tags: Etiketler
+  rest-graphql-1: 'Rest vs GraphQL 1. Bölüm'
 posts:
   translations: Çeviriler

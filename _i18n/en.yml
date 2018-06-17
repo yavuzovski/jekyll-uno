@@ -3,5 +3,8 @@ langs:
   tr: Turkish
 titles:
   about: About
+  Categories: Categories
+  Tags: Tags
+  rest-graphql-1: 'Rest vs GraphQL Part 1'
 posts:
   translations: Translations
