@@ -21,3 +21,7 @@ deploy:
   on:
     branch: devel
   target-branch: master
+
+branches:
+  except:
+  - master
