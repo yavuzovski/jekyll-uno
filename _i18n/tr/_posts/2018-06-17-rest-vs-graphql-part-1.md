@@ -10,7 +10,7 @@ Bu yazıda sizlere GraphQL mimarisini anlatmaya çalışacağım.
 Ancak bunu yapabilmek için öncelikle GraphQL'in çözüm olduğu 
 sorunları gösterebilmek adına REST mimarisine değinmemiz gerekiyor.
 Bu nedenle, yazıyı iki bölüme ayırdım. İlk bölümde ufak bir REST API
-yapacağız. İkinci bölümde de aynı API'ı GraphQL mimarisi ile 
+oluşturacağız. İkinci bölümde de aynı API'ı GraphQL mimarisi ile 
 yaparak REST mimarisinin yetersiz ve eksik kaldığı yerleri ve
 GraphQL'in bunları nasıl çözdüğünü göreceğiz. Kullanacağımız teknolojiler:
 
@@ -18,7 +18,7 @@ GraphQL'in bunları nasıl çözdüğünü göreceğiz. Kullanacağımız teknol
 - ExpressJS
 - MongoDB
 
-# REST API Oluşturma
+# REST API
 
 ### Veri Modeli
 
@@ -59,16 +59,19 @@ Oluşturacağımız API'ın şu iki koşulu sağlamasını istiyoruz:
     - /artists
     - /artists/:artistId
    
-2. İstemci tarafında aynı anda hem parça hem de o parçaya ait olan şarkıcı
-bilgilerini gösterebilmek. Yani JSON ile temsil edecek olursak istemci tarafında
-şunu elde edebilmek:
+2. İstemci tarafında parça adı, parça türü ve o parçanın şarkıcısının adını tek bir JSON objesinde elde etmek.
+Temsil edecek olursak:
     ```
-    
+    {
+      "title": "Aç Kapıyı Gir İçeri",
+      "genre": "pop",
+      "artist": {
+        "name": "Özdemir Erdoğan"
+      }
+    }
     ```
-
-    - Bu koşulu yerine getirmek için istemci tarafında seçebileceğimiz bir çözüm, sunucu tarafında
-    seçebileceğimiz iki çözüm var. Buraya CRUD kısmını bitirdikten sonra tekrar geleceğiz. GraphQL'in
-    farkını göstermek için kilit rol oynayacak olan kısım bu olacak.
+    **Çözüm:** Bu koşulu yerine getirmek için istemci tarafında seçebileceğimiz bir çözüm, sunucu tarafında
+    seçebileceğimiz iki çözüm var. Buraya CRUD kısmını bitirdikten sonra tekrar geleceğiz.
 
 ### Uygulama
 
