@@ -39,7 +39,7 @@ kramdown:
 
 plugins:
   - jekyll-paginate
-  - jekyll-multiple-language-plugin
+  - jekyll-multiple-languages-plugin
 
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png', vendor]
 timezone: Europe/Istanbul
