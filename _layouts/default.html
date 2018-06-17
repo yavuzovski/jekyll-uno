@@ -7,32 +7,34 @@
 
     <div class="content-wrapper">
       <div class="content-wrapper__inner">
+        <div class="post">
+          <div align="right">
+            <!-- Adds links to other languages on the post -->
+            {% if page.notranslate != true %}
+            {% for lang in site.languages %}
+            {% unless site.lang == lang %}
+            <p> {% t posts.translations %}:
+            {% if lang == site.default_lang %}
+            <a href="{{ site.baseurl_root }}{{ page.url }}" >{% t langs.{{ lang }} %}</a>
+            {% else %}
+            <a href="{{ site.baseurl_root }}/{{ lang }}{{ page.url }}" >{% t langs.{{ lang }} %}</a>
+            {% endif %}
+            </p>
+            {% assign next = forloop.index | plus: 1 %}
+
+            {% if forloop.last != true and site.languages[forloop.index] != site.lang or site.languages[forloop.index] == site.lang and next < forloop.length %}
+            <span class="separator"> &bull; </span>
+            {% endif %}
+
+            {% endunless %}
+            {% endfor %}
+            {% endif %}
+          </div>
+        </div>
+
+
         {{ content }}
       </div>
-      <div class="post">
-        <div align="right">
-          <!-- Adds links to other languages on the post -->
-          {% if page.notranslate != true %}
-          {% for lang in site.languages %}
-          {% unless site.lang == lang %}
-          {% if lang == site.default_lang %}
-          <a href="{{ site.baseurl_root }}{{ page.url }}" >{% t langs.{{ lang }} %}</a>
-          {% else %}
-          <a href="{{ site.baseurl_root }}/{{ lang }}{{ page.url }}" >{% t langs.{{ lang }} %}</a>
-          {% endif %}
-
-          {% assign next = forloop.index | plus: 1 %}
-
-          {% if forloop.last != true and site.languages[forloop.index] != site.lang or site.languages[forloop.index] == site.lang and next < forloop.length %}
-          <span class="separator"> &bull; </span>
-          {% endif %}
-
-          {% endunless %}
-          {% endfor %}
-          {% endif %}
-        </div>
-      </div>
-
       {% include footer.html %}
     </div>
   </body>

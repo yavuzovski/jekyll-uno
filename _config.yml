@@ -1,10 +1,10 @@
 # Site settings
 title: yavuzovski
-description: 'summary about myself'
+description: 'breaks softwares regularly'
 url: 'https://yavuzovski.github.io'
 baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
+disqus_shortname: 'yavuzovski'
 
 author:
   name: 'Oğuzcan Yavuz'
