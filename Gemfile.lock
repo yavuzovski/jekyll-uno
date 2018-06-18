@@ -248,6 +248,7 @@ DEPENDENCIES
   github-pages
   jekyll
   jekyll-multiple-languages-plugin
+  jekyll-paginate
 
 BUNDLED WITH
    1.16.2
