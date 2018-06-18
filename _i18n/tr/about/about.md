@@ -10,13 +10,13 @@ Ağırlıklı olarak `NodeJS` kullanmaktayım. Ayrıca `makine öğrenmesi`,
  `derin öğrenme` gibi `yapay zeka` konularına da ilgim var.
 Backend development konusunda kendimi yeterli gördükten
 sonra bu alanlarda da temel aldıkları matematik konseptlerini de
-öğrenerek ilerlemeyi planlıyorum.
-
-Bazı şeyler için çok üşengeç bir insanım. Mesela bütün ev işleri
-benim için çok büyük dertlerdir. Bazen bulaşık çıkmasın diye yemek
-yemeyebiliyorum. Ancak merak etmeyin; yazılım, üşengeçlik yapmamaya
-özen gösterdiğim bir konu. Bence yazılım geliştirmek çok havalı bir
+öğrenerek ilerlemeyi planlıyorum. Bence yazılım geliştirmek çok havalı bir
 şey ve kendime **iyi bir yazılım geliştiricisi** diyebilmek için sürekli
-daha iyi bir yazılımcı olmaya çalışmaktayım.
+daha iyi bir yazılımcı olmaya çalışıyorum.
+
+Bu blog üzerinde yazılım hakkında paylaşımlarda bulunacağım.
+Beni ayrıca [Linkedin] ve [Github] üzerinden de takip edebilirsiniz.
 
 [MOOC]: http://mooc.org
+[Linkedin]: https://www.linkedin.com/in/oguzcanyavuz
+[Github]: https://github.com/yavuzovski
