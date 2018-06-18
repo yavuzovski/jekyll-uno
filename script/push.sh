@@ -18,7 +18,7 @@ commit_website_files() {
 
 upload_files() {
     git remote add origin-pages https://${GITHUB_TOKEN}@github.com/yavuzovski/yavuzovski.github.io.git
-    git push --quiet --set-upstream origin-pages master --force
+    git push --force origin-pages master
 }
 
 setup_git
