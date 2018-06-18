@@ -7,6 +7,8 @@ before_script:
 
 script: ./script/cibuild
 
+after_success: ./script/push.sh
+
 sudo: false
 
 cache: bundler

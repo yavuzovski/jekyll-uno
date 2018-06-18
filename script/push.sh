@@ -1,11 +1,5 @@
 #!/usr/bin/env bash
 
-set -e # halt script on error
-
-bundle exec jekyll build
-
-push kismini ayri script icine al ve after success ile cagir
-
 setup_git() {
     git config --global user.email "travis@travis-ci.org"
     git config --global user.name "Travis CI"
