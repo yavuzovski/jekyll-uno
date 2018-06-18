@@ -14,14 +14,6 @@ cache: bundler
 notifications:
   email: false
 
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-  on:
-    branch: yvz-dev
-  target-branch: master
-
 branches:
   except:
   - master
