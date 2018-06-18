@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oğuzcan Yavuz</title>
+    <description>breaks softwares regularly</description>
+    <link>https://yavuzovski.github.io/tr/</link>
+    <atom:link href="https://yavuzovski.github.io/tr/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 18 Jun 2018 11:07:48 +0300</pubDate>
+    <lastBuildDate>Mon, 18 Jun 2018 11:07:48 +0300</lastBuildDate>
+    <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>GraphQL Nedir</title>
+        <description>&lt;p&gt;Bu yazıda sizlere GraphQL mimarisini anlatmaya çalışacağım.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 17 Jun 2018 18:31:21 +0300</pubDate>
+        <link>https://yavuzovski.github.io/tr/2018/graphql-nedir/</link>
+        <guid isPermaLink="true">https://yavuzovski.github.io/tr/2018/graphql-nedir/</guid>
+        
+        <category>backend</category>
+        
+        <category>graphql</category>
+        
+        <category>rest</category>
+        
+        <category>nodejs</category>
+        
+        <category>exressjs</category>
+        
+        <category>mongodb</category>
+        
+        
+        <category>backend</category>
+        
+        <category>graphql</category>
+        
+        <category>rest</category>
+        
+      </item>
+    
+  </channel>
+</rss>

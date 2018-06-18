@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oğuzcan Yavuz</title>
+    <description>breaks softwares regularly</description>
+    <link>https://yavuzovski.github.io/</link>
+    <atom:link href="https://yavuzovski.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 18 Jun 2018 11:07:48 +0300</pubDate>
+    <lastBuildDate>Mon, 18 Jun 2018 11:07:48 +0300</lastBuildDate>
+    <generator>Jekyll v3.7.3</generator>
+    
+  </channel>
+</rss>
