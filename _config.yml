@@ -37,6 +37,10 @@ kramdown:
   # do not replace newlines by <br>s
   hard_wrap: false
 
+plugins:
+  - jekyll-paginate
+  - jekyll-multiple-languages-plugin
+
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png', vendor]
 timezone: Europe/Istanbul
 future: true
