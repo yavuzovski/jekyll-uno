@@ -3,7 +3,7 @@ title: Oğuzcan Yavuz
 description: 'posts about tech'
 url: 'https://yavuzovski.github.io'
 baseurl: ''
-# google_analytics: 'UA-XXXXXX-X'
+google_analytics: 'UA-53456624-2'
 disqus_shortname: 'yavuzovski'
 
 author:
