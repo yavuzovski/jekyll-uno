@@ -1,9 +1,8 @@
 ---
-title: REST Mimarisindeki Problemler
+title: problems-with-the-rest
 date: 2018-06-19 17:00:12
 categories: [backend, graphql, rest]
 tags: [backend, graphql, rest]
-notranslate: true
 ---
 
 Bu yazıda sizlere REST mimarisindeki problemleri göstermeye çalışacağım.
@@ -204,7 +203,7 @@ bu çözümler de beraberlerinde başka problemleri getiriyor. Bu çözümlerden
         ...
       ]
       ```
-    Bu sayede sadece `/posts` endpoint'ine tek bir istek
+    Bu sayede sadece `/posts` endpoint'ine tek bir request
     yaparak `username` değerlerini de elde etmiş olacağız ve `n + 1` yerine `1` request yaparak under-fetching problemi
     de çözülmüş olacak. Aslında bu çözüm over-fetching problemini de çözmekte. Ancak bu çözümün de beraberinde
     getirebileceği problemler var.
@@ -321,10 +320,13 @@ yukarıdaki çözümler arasında dengeyi sağlamak olacaktır. Spesifik veri ya
 yeni endpoint'ler oluşturmak, daha az spesifik olanları için diğer endpoint'lere query string'ler
 ile argüman verebilmek ve genel veri yapıları için bir miktar over-fetching ve under-fetching'e göz yummak.
 
+İkinci bölümde GraphQL'nin bahsettiğimiz sorunları nasıl çözdüğünü anlatmaya çalıştım.
+
 [JSONPlaceholder]: https://jsonplaceholder.typicode.com/
 [/posts]: https://jsonplaceholder.typicode.com/posts
 [/users/:userId]: https://jsonplaceholder.typicode.com/users/1
 [/users/1]: https://jsonplaceholder.typicode.com/users/1 
 [over-fetching]: https://stackoverflow.com/a/44568365
 [under-fetching]: https://stackoverflow.com/a/44568365
+[İkinci bölümde]: https://yavuzovski.github.io
 
