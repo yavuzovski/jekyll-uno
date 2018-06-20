@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oğuzcan Yavuz</title>
+    <description>posts about tech</description>
+    <link>https://yavuzovski.github.io/tr/</link>
+    <atom:link href="https://yavuzovski.github.io/tr/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 20 Jun 2018 13:09:00 +0300</pubDate>
+    <lastBuildDate>Wed, 20 Jun 2018 13:09:00 +0300</lastBuildDate>
+    <generator>Jekyll v3.7.3</generator>
+    
+  </channel>
+</rss>
